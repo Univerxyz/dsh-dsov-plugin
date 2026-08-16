@@ -33,8 +33,8 @@ A lightweight plugin for the DSH Web GUI: it adds a first-position „ÄêOverview„Ä
 ### Option 1: Install from npm (end users)
 
 ```bash
-# After publishing to npmjs (e.g. @your-name/dsh-dsov-plugin):
-dsh plugin --profile web add @your-name/dsh-dsov-plugin
+# The package is published on npm as @univerxyz/dsh-dsov-plugin; install into the DSH web profile:
+dsh plugin --profile web add @univerxyz/dsh-dsov-plugin
 
 # Restart dsh web for the plugin to take effect:
 dsh --profile web
@@ -44,7 +44,7 @@ dsh --profile web
 
 ```bash
 # 1) Clone the repository
-git clone https://github.com/<your-name>/dsh-dsov-plugin.git
+git clone https://github.com/univerxyz/dsh-dsov-plugin.git
 cd dsh-dsov-plugin
 
 # 2) Install dependencies (zero runtime deps; build toolchain only)

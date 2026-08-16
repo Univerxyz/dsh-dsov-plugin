@@ -33,8 +33,8 @@
 ### 方案 1：NPM 一键安装（普通终端用户）
 
 ```bash
-# 发布到 npmjs 后（包名如 @你的用户名/dsh-dsov-plugin）：
-dsh plugin --profile web add @你的用户名/dsh-dsov-plugin
+# 包已发布至 npm（@univerxyz/dsh-dsov-plugin），一键安装到 DSH web profile：
+dsh plugin --profile web add @univerxyz/dsh-dsov-plugin
 
 # 重启 dsh web 使插件生效：
 dsh --profile web
@@ -44,7 +44,7 @@ dsh --profile web
 
 ```bash
 # 1) 克隆仓库
-git clone https://github.com/<你的用户名>/dsh-dsov-plugin.git
+git clone https://github.com/univerxyz/dsh-dsov-plugin.git
 cd dsh-dsov-plugin
 
 # 2) 安装依赖（零运行时依赖，仅需构建工具链）

@@ -1,13 +1,15 @@
 # dsh-dsov-plugin bundle patch: inserts the dual-face plugin row into the web
 # profile roster. Applied as a profile bundle layer (the `dsh.bundle.patch`
 # manifest field). Install with:
-#   dsh plugin --profile web add @<npm-user>/dsh-dsov-plugin        (npm registry)
+#   dsh plugin --profile web add @univerxyz/dsh-dsov-plugin        (npm registry)
 #   dsh plugin --profile web add link:<this-repo-absolute-path>     (local link)
 #
 # The row is a bare plugin by package name: the node half (exports ".") runs
 # in the host process (llm/stream metering + agent active-time + /dsov route),
 # and the `dsh.client` declaration in package.json makes the browser half
 # (exports "./client", served at /plugins/<name>/client.js) load in the web GUI.
+# NOTE: the row `name` MUST equal package.json `name` (the loader resolves the
+# package by this name); keep them in sync after any rename.
 - insert:
     - id: ui-dsh-dsov
-      name: '@dsh-dsov/dsh-dsov-plugin'
+      name: '@univerxyz/dsh-dsov-plugin'

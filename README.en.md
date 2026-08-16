@@ -12,13 +12,13 @@ A lightweight plugin for the DSH Web GUI: it adds a first-position „ÄêOverview„Ä
 
 
 <div align="center">
-<img src="./assets/overview-panel.png" alt="Overview Panel" width="480">
+<img src="./assets/overview-panel.png" alt="Overview Panel" width="250">
 </div>
 
 <br>
 
 <div align="center">
-<img src="./assets/settings-platform-entry.png" alt="Platform Entry in Settings" width="680">
+<img src="./assets/settings-platform-entry.png" alt="Platform Entry in Settings" width="800">
 </div>
 
 

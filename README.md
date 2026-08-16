@@ -12,13 +12,13 @@
 
 
 <div align="center">
-<img src="./assets/overview-panel.png" alt="概览面板展示" width="480">
+<img src="./assets/overview-panel.png" alt="概览面板展示" width="250">
 </div>
 
 <br>
 
 <div align="center">
-<img src="./assets/settings-platform-entry.png" alt="设置页平台入口" width="680">
+<img src="./assets/settings-platform-entry.png" alt="设置页平台入口" width="800">
 </div>
 
 

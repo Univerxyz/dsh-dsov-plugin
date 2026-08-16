@@ -12,7 +12,7 @@ A lightweight plugin for the DSH Web GUI: it adds a first-position ã€Overviewã€
 
 
 <div align="center">
-<img src="./assets/overview-panel.png" alt="Overview Panel" width="860">
+<img src="./assets/overview-panel.png" alt="Overview Panel" width="480">
 </div>
 
 <br>

@@ -12,7 +12,7 @@
 
 
 <div align="center">
-<img src="./assets/overview-panel.png" alt="概览面板展示" width="860">
+<img src="./assets/overview-panel.png" alt="概览面板展示" width="480">
 </div>
 
 <br>

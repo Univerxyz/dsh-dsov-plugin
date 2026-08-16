@@ -8,7 +8,8 @@ A lightweight plugin for the DSH Web GUI: it adds a first-position 【Overview�
 
 - **Sidebar 【Overview】 panel**: adds a first-position 【Overview】 tab to the right sidebar (fixed order: Overview / Files / Changes) with real-time session duration, API request count and per-model usage (tokens, cache hit rate, cost, etc.), auto-refreshing every second with no manual action needed;
 - **Light / dark theme adaptive**: every surface follows the DSH system theme automatically — cards, text, progress bars and colors adapt on their own, no extra configuration;
-- **One-click official platform**: a new 【DeepSeek 开放平台】 nav entry in the settings panel opens https://platform.deepseek.com directly in the system default browser — no second click, no intermediate page.
+- **One-click official platform**: a new 【DeepSeek 开放平台】 nav entry in the settings panel opens https://platform.deepseek.com  ,directly in the system default browser — no second click, no intermediate page.
+
 ![Overview Panel](./assets/overview-panel.png)
 
 ![Platform Entry in Settings](./assets/settings-platform-entry.png)

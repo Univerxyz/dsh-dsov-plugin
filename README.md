@@ -10,13 +10,17 @@
 - **浅色 / 深色主题自适应**：全部界面跟随 DSH 系统主题自动切换浅色 / 深色模式，卡片、文字、进度条等配色自动适配，无需额外设置；
 - **一键直达官方平台**：设置面板左侧新增【DeepSeek 开放平台】导航项，点击后直接唤起系统默认浏览器打开 https://platform.deepseek.com ，无需二次点击，无中间过渡页面。
 
-<div align="center">
-![概览面板展示](./assets/overview-panel.png)
-</div>
 
 <div align="center">
-![设置页平台入口](./assets/settings-platform-entry.png)
+<img src="./assets/overview-panel.png" alt="概览面板展示" width="860">
 </div>
+
+<br>
+
+<div align="center">
+<img src="./assets/settings-platform-entry.png" alt="设置页平台入口" width="680">
+</div>
+
 
 ## 📋 前置运行要求
 

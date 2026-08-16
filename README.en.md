@@ -10,13 +10,17 @@ A lightweight plugin for the DSH Web GUI: it adds a first-position 【Overview�
 - **Light / dark theme adaptive**: every surface follows the DSH system theme automatically — cards, text, progress bars and colors adapt on their own, no extra configuration;
 - **One-click official platform**: a new 【DeepSeek 开放平台】 nav entry in the settings panel opens https://platform.deepseek.com  ,directly in the system default browser — no second click, no intermediate page.
 
-<div align="center">
-![Overview Panel](./assets/overview-panel.png)
-</div>
 
 <div align="center">
-![Platform Entry in Settings](./assets/settings-platform-entry.png)
+<img src="./assets/overview-panel.png" alt="Overview Panel" width="860">
 </div>
+
+<br>
+
+<div align="center">
+<img src="./assets/settings-platform-entry.png" alt="Platform Entry in Settings" width="680">
+</div>
+
 
 ## 📋 Prerequisites
 

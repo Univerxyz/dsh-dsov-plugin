@@ -1,0 +1,60 @@
+{
+  "name": "@dsh-dsov/dsh-dsov-plugin",
+  "description": "DSH Web GUI plugin: a first-position 【概览】tab in the right panel (context window / session metrics with active-only 1s runtime / per-model usage analysis) plus a settings entry 【DeepSeek 开放平台】 that opens platform.deepseek.com. Web-profile only, theme-adaptive.",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./client": "./lib/client.js",
+    "./cordis.patch.yml": "./cordis.patch.yml",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "lib/",
+    "src/",
+    "scripts/",
+    "cordis.patch.yml",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "link": "node scripts/link-profile.mjs",
+    "link:web": "node scripts/link-profile.mjs --profile web",
+    "prepublishOnly": "npm run build"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web"
+    }
+  },
+  "peerDependencies": {
+    "react": "^18.2.0",
+    "@deepseek-ai/cordis": "*"
+  },
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek",
+    "usage",
+    "overview",
+    "web",
+    "ui"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/<your-name>/dsh-dsov-plugin.git"
+  },
+  "homepage": "https://github.com/<your-name>/dsh-dsov-plugin",
+  "bugs": {
+    "url": "https://github.com/<your-name>/dsh-dsov-plugin/issues"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
